@@ -2,8 +2,8 @@
 	<Shell id="shell">
 		<App id="app">
 			<pages>
-				<Page id="page" title="{i18n>title}">
-					<content></content>
+				<Page id="page" title="Devops CI/CD">
+					<content><Label text="Hello CI/CD"/></content>
 				</Page>
 			</pages>
 		</App>
