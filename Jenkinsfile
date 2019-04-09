@@ -1,9 +1,11 @@
 pipeline {
-    agent any
+    agent { docker { image 'node:8.11.3' } }
     stages {
         stage('build') {
             steps {
-                sh 'echo \'Build the SAP UI5 Project...\''
+                sh 'npm config set @sap:registry https://npm.sap.com'
+				sh 'npm install'
+				sh 'npm run-script build'
             }
         }
         stage('test'){
