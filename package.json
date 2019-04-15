@@ -1,14 +1,22 @@
 {
-  "name": "helloapp",
-  "version": "0.0.1",
-  "description": "Hello Freestyle App",
-  "private": true,
-  "devDependencies": {
-    "@sap/grunt-sapui5-bestpractice-build": "1.3.65",
-    "@sap/grunt-sapui5-bestpractice-test": "2.0.0"
-  },
-  "scripts": {
-    "test": "grunt unit_and_integration_tests",
-    "build": "grunt buildProject --verbose"
-  }
+	"name": "helloapp",
+	"version": "0.0.1",
+	"description": "Hello Freestyle App",
+	"private": true,
+	"devDependencies": {
+		"@sap/grunt-sapui5-bestpractice-build": "1.3.65",
+		"@sap/grunt-sapui5-bestpractice-test": "2.0.0",
+		"karma": "2.0.4",
+		"grunt-karma": "2.0.0",
+		"karma-openui5": "0.2.3",
+		"karma-chrome-launcher": "2.2.0",
+		"karma-qunit": "2.1.0",
+		"qunit": "2.6.1",
+		"karma-junit-reporter": "1.2.0",
+		"karma-coverage": "1.1.2"
+	},
+	"scripts": {
+		"build": "grunt buildProject --verbose",
+		"test": "grunt testProject  --verbose"
+	}
 }
