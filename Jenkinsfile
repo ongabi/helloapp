@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm config set @sap:registry https://npm.sap.com'
-				sh 'npm install'
-				sh 'npm run-script build'
+				sh 'echo \'Build the SAP UI5 Project...\''
             }
         }
         stage('test'){
