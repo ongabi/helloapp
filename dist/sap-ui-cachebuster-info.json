@@ -1,0 +1,18 @@
+{
+  "Component-dbg.js": 1555342929209,
+  "Component-preload.js": 1555342929279,
+  "Component.js": 1555332048000,
+  "controller/View1-dbg.controller.js": 1555342929209,
+  "controller/View1.controller.js": 1555332048000,
+  "css/style-dbg.css": 1555342929209,
+  "css/style.css": 1555332048000,
+  "di.code-validation.core_issues.json": 1555342928929,
+  "i18n/i18n.properties": 1555332048000,
+  "index.html": 1555332048000,
+  "manifest-bundle.zip": 1555342929419,
+  "manifest.json": 1555342928989,
+  "model/models-dbg.js": 1555342929209,
+  "model/models.js": 1555332048000,
+  "neo-app.json": 1555342929299,
+  "view/View1.view.xml": 1555332048000
+}
