@@ -1,0 +1,11 @@
+<mvc:View controllerName="helloapp.helloapp.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Devops CI/CD">
+					<content><Label text="Hello CI/CD"/></content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
